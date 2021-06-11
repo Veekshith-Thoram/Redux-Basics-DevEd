@@ -13,8 +13,7 @@ function App() {
       <button onClick={()=> dispatch(increment(5))}>+</button>
       <button onClick={()=> dispatch(decrement())}>-</button>
       {logData ? "You are not logged in" : ""}
-
-    </div>
+      </div>
   );
 }
 
