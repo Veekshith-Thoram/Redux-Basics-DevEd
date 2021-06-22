@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <h2>Counter : {count}</h2>
       <button onClick={()=> dispatch(increment(5))}>+</button>
-      <button onClick={()=> dispatch(decrement())}>-</button>
-      {logData ? "You are not logged in" : ""}
+      <p><button onClick={()=> dispatch(decrement())}>-</button></p>
+      <p>{logData ? "You are logged in" : "You are not logged in"}</p>
       </div>
   );
 }
